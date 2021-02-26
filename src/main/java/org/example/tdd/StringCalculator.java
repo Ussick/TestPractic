@@ -39,15 +39,4 @@ public class StringCalculator implements Calculator{
         }
         return i;
     }
-
-    public static void main(String[] args) {
-        String s="10,-23:7,-14 6,-9";
-        StringCalculator stringCalculator=new StringCalculator();
-        System.out.println(stringCalculator.add(s));
-
-//        List <Integer> integerList=List.of(-1,-1,-1);
-//        System.out.println(Arrays.toString(integerList.toArray()));
-
-
-    }
 }
